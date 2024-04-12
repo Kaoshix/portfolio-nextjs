@@ -4,7 +4,7 @@ import { ButtonHireMe } from "./ui/button-hire-me";
 
 export const HeroBanner = () => {
     return (
-        <>
+        <div className="grow flex items-center mb-16">
             <div className="w-[600px] mx-auto">
                 <h1 className='text-5xl text-gray-700 font-semibold leading-[3.7rem] mb-3'>
                     <span className="pl-1">Hi, i am</span>
@@ -24,6 +24,6 @@ export const HeroBanner = () => {
             <div className="grow hidden md:flex justify-end">
                 <Image src={'/developer.svg'} width={800} height={800} alt="hero banner image" />
             </div>
-        </>
+        </div>
     )
 }

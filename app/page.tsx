@@ -5,9 +5,9 @@ export default function Home() {
 
     <div>
       <div className="min-h-screen flex flex-col">
-        <div className="grow flex items-center">
-          <HeroBanner />
-        </div>
+
+        <HeroBanner />
+
         <div className="absolute bottom-5 left-1/2 transform -translate-x-1/2 rotate-90">
           <div className="animate-[propel_5s_infinite_both] opacity-80">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="black" className="h-10 w-10">
