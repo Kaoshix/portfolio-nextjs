@@ -1,11 +1,14 @@
+import { ButtonHireMe } from "./ui/button-hire-me";
+
 export const NavigationBar = () => {
     return (
         <nav>
-            <ul className="flex gap-8 font-semibold text-lg">
+            <ul className="flex gap-6 items-center font-semibold text-lg">
                 <li>Home</li>
-                <li>About</li>
                 <li>Projects</li>
                 <li>Contact</li>
+                <ButtonHireMe />
+
             </ul>
         </nav>
     )

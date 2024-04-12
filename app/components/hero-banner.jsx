@@ -1,21 +1,24 @@
 import Image from "next/image";
 import { Button } from "./ui/button";
+import { ButtonHireMe } from "./ui/button-hire-me";
 
 export const HeroBanner = () => {
     return (
         <>
             <div className="w-[600px] mx-auto">
-                <h1 className='text-5xl text-gray-700 font-semibold leading-[4rem] mb-5'>
-                    Hi, i am
+                <h1 className='text-5xl text-gray-700 font-semibold leading-[3.7rem] mb-3'>
+                    <span className="pl-1">Hi, i am</span>
                     <br />
                     <span className="text-7xl font-bold">Sebastien</span>
                     <br />
-                    <span className="font-bold bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 text-transparent bg-clip-text">Full-stack Web Developer</span>
+                    <span className="pl-1 font-bold bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 text-transparent bg-clip-text">Full-stack Web Developer</span>
                 </h1>
 
-                <div className="flex gap-2">
+                <p className="pl-1 mb-4 text-lg font-normal">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur temporibus quam excepturi corrupti ratione laboriosam deleniti rerum laborum.</p>
+
+                <div className="flex items-center gap-2">
                     <Button>Download my CV</Button>
-                    <Button>Hire me</Button>
+                    <ButtonHireMe />
                 </div>
             </div>
             <div className="grow hidden md:flex justify-end">
