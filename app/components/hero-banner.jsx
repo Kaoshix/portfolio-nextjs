@@ -4,7 +4,7 @@ import { ButtonContact } from "./ui/button-contact";
 
 export const HeroBanner = () => {
     return (
-        <div className="grow flex items-center">
+        <div className="md:grow flex items-center">
             <div className="w-[600px] mx-auto text-center md:text-start">
                 <h1 className='text-4xl md:text-5xl text-gray-700 font-semibold leading-[2.5rem] md:leading-[3.7rem] mb-5 md:mb-3'>
                     <span>Hi, i am</span>
