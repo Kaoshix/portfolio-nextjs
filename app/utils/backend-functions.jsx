@@ -1,29 +1,13 @@
-import { webAppProjects as webProjectsData } from '../datas/projects';
-import { softwareProjects as softwareProjectsData } from '../datas/projects';
+import { Projects } from '../datas/projects';
 
 export const getAllProjects = () => {
-
-    const arr = [];
-    const webProjects = webProjectsData;
-    const softwareProjects = softwareProjectsData;
-
-    webProjects.forEach(project => {
-        arr.push(project);
-    }
-    )
-
-    softwareProjects.forEach(project => {
-        arr.push(project);
-    }
-    )
-
-    return arr;
+    return Projects;
 }
 
 export const getWebAppProjects = () => {
-    return webProjectsData;
+    return Projects.filter(project => project.platform === 'web');
 }
 
 export const getSoftwareProjects = () => {
-    return softwareProjectsData;
+    return Projects.filter(project => project.platform === 'software');
 }

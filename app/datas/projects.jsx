@@ -1,75 +1,58 @@
-export const webAppProjects = [
+export const Projects = [
     {
         id: 1,
         title: 'Retrophy',
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur temporibus quam excepturi corrupti ratione laboriosam deleniti rerum laborum.',
         image: '/retrophy-image.png',
-        link: 'https://retrophy.fun'
+        link: 'https://retrophy.fun',
+        platform: 'web'
     },
     {
         id: 2,
-        title: 'Project 2',
+        title: 'TMSV Manutention',
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur temporibus quam excepturi corrupti ratione laboriosam deleniti rerum laborum.',
-        image: '',
-        link: 'https://www.google.com'
+        image: '/tmsv-image.png',
+        link: 'https://tmsv-manutention.fr',
+        platform: 'web'
     },
     {
         id: 3,
-        title: 'Project 3',
+        title: 'Isobleu',
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur temporibus quam excepturi corrupti ratione laboriosam deleniti rerum laborum.',
-        image: '',
-        link: 'https://www.google.com'
+        image: '/isobleu-image.png',
+        link: 'https://isobleu.fr',
+        platform: 'web'
     },
     {
         id: 4,
-        title: 'Project 4',
+        title: 'Santar Lodge',
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur temporibus quam excepturi corrupti ratione laboriosam deleniti rerum laborum.',
-        image: '',
-        link: 'https://www.google.com'
+        image: '/santar-image.png',
+        link: 'https://santarlodge.vercel.app',
+        platform: 'web'
     },
     {
         id: 5,
-        title: 'Project 5',
+        title: 'Black Jacko',
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur temporibus quam excepturi corrupti ratione laboriosam deleniti rerum laborum.',
-        image: '',
-        link: 'https://www.google.com'
-    }
-]
-
-export const softwareProjects = [
+        image: '/blackjacko-image.png',
+        link: 'https://blackjacko-react.vercel.app',
+        platform: 'web'
+    },
     {
         id: 6,
-        title: 'Project 1',
+        title: 'Altea Flight Management',
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur temporibus quam excepturi corrupti ratione laboriosam deleniti rerum laborum.',
-        image: '',
-        link: 'https://www.google.com'
+        image: '/altea-fm-image.png',
+        link: '',
+        platform: 'software'
     },
     {
         id: 7,
-        title: 'Project 2',
+        title: 'Altea Customer Management',
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur temporibus quam excepturi corrupti ratione laboriosam deleniti rerum laborum.',
-        image: '',
-        link: 'https://www.google.com'
-    },
-    {
-        id: 8,
-        title: 'Project 3',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur temporibus quam excepturi corrupti ratione laboriosam deleniti rerum laborum.',
-        image: '',
-        link: 'https://www.google.com'
-    },
-    {
-        id: 9,
-        title: 'Project 4',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur temporibus quam excepturi corrupti ratione laboriosam deleniti rerum laborum.',
-        image: '',
-        link: 'https://www.google.com'
-    },
-    {
-        id: 10,
-        title: 'Project 5',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur temporibus quam excepturi corrupti ratione laboriosam deleniti rerum laborum.',
-        image: '',
-        link: 'https://www.google.com'
+        image: '/altea-cm-image.png',
+        link: '',
+        platform: 'software'
     }
 ]
