@@ -1,5 +1,5 @@
 'use client';
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import { getAllProjects, getSoftwareProjects, getWebAppProjects } from '../utils/backend-functions';
 import { ProjectCard } from './project-card';
 
@@ -33,7 +33,7 @@ export const ProjectsContainer = () => {
                     }}>Softwares</li>
             </ul>
 
-            <div className='grid grid-cols-3 gap-5'>
+            <div className='grid grid-cols-2 gap-5'>
                 {projects && projects.map(project => (
                     <ProjectCard project={project} key={project.id} />
                 ))}
