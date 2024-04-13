@@ -1,5 +1,3 @@
-import { ButtonHireMe } from "./ui/button-hire-me";
-
 export const NavigationBar = () => {
     return (
         <nav>
@@ -7,8 +5,6 @@ export const NavigationBar = () => {
                 <li>Home</li>
                 <li>Projects</li>
                 <li>Contact</li>
-                <ButtonHireMe />
-
             </ul>
         </nav>
     )
