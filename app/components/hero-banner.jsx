@@ -17,7 +17,7 @@ export const HeroBanner = () => {
                 <p className="mb-5 text-2xl font-normal">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur temporibus quam excepturi corrupti ratione laboriosam deleniti rerum laborum.</p>
 
                 <div className="flex justify-center md:justify-start gap-2">
-                    <Button>Download my CV</Button>
+                    <Button>Download CV</Button>
                     <ButtonContact />
                 </div>
             </div>

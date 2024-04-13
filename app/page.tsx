@@ -9,7 +9,7 @@ export default function Home() {
 
     <main className="max-w-screen-2xl m-auto overflow-hidden flex flex-col gap-5">
 
-      <div className="min-h-screen mx-5 flex flex-col" id="home-section">
+      <div className="min-h-screen mx-5 flex flex-col mb-10" id="home-section">
         <Header />
         <div className="flex flex-col grow">
           <HeroBanner />
