@@ -6,7 +6,7 @@ export const HeroBanner = () => {
     return (
         <div className="grow flex items-center">
             <div className="w-[600px] mx-auto text-center md:text-start">
-                <h1 className='text-4xl md:text-5xl text-gray-700 font-semibold leading-[2.5rem] md:leading-[3.7rem] mb-10 md:mb-3'>
+                <h1 className='text-4xl md:text-5xl text-gray-700 font-semibold leading-[2.5rem] md:leading-[3.7rem] mb-5 md:mb-3'>
                     <span>Hi, i am</span>
                     <br />
                     <span className="text-6xl md:text-7xl font-bold">Sebastien</span>
@@ -14,7 +14,7 @@ export const HeroBanner = () => {
                     <p className="mt-2 font-bold bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 text-transparent bg-clip-text">Full-stack Web Developer</p>
                 </h1>
 
-                <p className="mb-10 md:mb-5 text-2xl font-normal">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur temporibus quam excepturi corrupti ratione laboriosam deleniti rerum laborum. Consequuntur temporibus quam excepturi corrupti ratione laboriosam deleniti rerum laborum.</p>
+                <p className="mb-5 text-2xl font-normal">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur temporibus quam excepturi corrupti ratione laboriosam deleniti rerum laborum.</p>
 
                 <div className="flex justify-center md:justify-start gap-2">
                     <Button>Download my CV</Button>
