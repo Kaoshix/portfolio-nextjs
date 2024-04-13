@@ -5,7 +5,7 @@ export const ProjectCard = ({ project }) => {
 
         <>
             {project.platform === 'web' ? (
-                <a href={project.link} target="_blank" className="block rounded overflow-hidden shadow-lg bg-white border border-gray-200 hover:scale-105 duration-200">
+                <a href={project.link} target="_blank" className="block rounded overflow-hidden shadow-lg bg-white border border-gray-200 md:hover:scale-105 md:duration-200">
                     <ProjectContent project={project} />
                 </a>
             ) : (

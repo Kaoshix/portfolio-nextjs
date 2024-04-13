@@ -11,7 +11,7 @@ export const ProjectsContainer = () => {
 
     return (
         <>
-            <ul className="flex gap-3 justify-center items-center mb-5 select-none">
+            <ul className="flex flex-col md:flex-row gap-3 justify-center items-center mb-5 select-none">
                 <li
                     className={`cursor-pointer py-2 px-3 rounded-lg ${listFocus === 'all' ? 'bg-black text-white' : 'bg-white text-black'}`}
                     onClick={() => {
@@ -21,7 +21,7 @@ export const ProjectsContainer = () => {
                 </li>
 
                 <li
-                    className={`cursor-pointer py-2 px-3 rounded-lg ${listFocus === 'web' ? 'bg-black text-white' : 'bg-white text-black'}`}
+                    className={`hidden md:inline-block cursor-pointer py-2 px-3 rounded-lg ${listFocus === 'web' ? 'bg-black text-white' : 'bg-white text-black'}`}
                     onClick={() => {
                         setProjects(getWebAppProjects());
                         setListFocus('web');
@@ -29,7 +29,7 @@ export const ProjectsContainer = () => {
                 </li>
 
                 <li
-                    className={`cursor-pointer py-2 px-3 rounded-lg ${listFocus === 'software' ? 'bg-black text-white' : 'bg-white text-black'}`}
+                    className={`hidden md:inline-block cursor-pointer py-2 px-3 rounded-lg ${listFocus === 'software' ? 'bg-black text-white' : 'bg-white text-black'}`}
                     onClick={() => {
                         setProjects(getSoftwareProjects());
                         setListFocus('software');
@@ -37,7 +37,7 @@ export const ProjectsContainer = () => {
                 </li>
 
                 <li
-                    className={`cursor-pointer py-2 px-3 rounded-lg ${listFocus === 'mobile' ? 'bg-black text-white' : 'bg-white text-black'}`}
+                    className={`hidden md:inline-block cursor-pointer py-2 px-3 rounded-lg ${listFocus === 'mobile' ? 'bg-black text-white' : 'bg-white text-black'}`}
                     onClick={() => {
                         setProjects('');
                         setListFocus('mobile');
@@ -45,7 +45,7 @@ export const ProjectsContainer = () => {
                 </li>
 
                 <li
-                    className={`cursor-pointer py-2 px-3 rounded-lg ${listFocus === 'game' ? 'bg-black text-white' : 'bg-white text-black'}`}
+                    className={`hidden md:inline-block cursor-pointer py-2 px-3 rounded-lg ${listFocus === 'game' ? 'bg-black text-white' : 'bg-white text-black'}`}
                     onClick={() => {
                         setProjects('');
                         setListFocus('game');
@@ -53,7 +53,7 @@ export const ProjectsContainer = () => {
                 </li>
             </ul>
 
-            <div className='grid grid-cols-3 gap-5 max-w-screen-xl mx-auto'>
+            <div className='grid grid-cols-1 md:grid-cols-3 gap-10 md:gap-5 max-w-screen-xl mx-5 md:mx-auto'>
                 {projects && projects.map(project => (
                     <ProjectCard project={project} key={project.id} />
                 ))}
