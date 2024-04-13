@@ -11,7 +11,7 @@ export default function Home() {
 
       <div className="min-h-screen mx-5 flex flex-col mb-10" id="home-section">
         <Header />
-        <div className="flex flex-col grow">
+        <div className="flex flex-col">
           <HeroBanner />
           <div className="min-h-[50px] md:min-h-0">
             <ArrowHomeButton />
