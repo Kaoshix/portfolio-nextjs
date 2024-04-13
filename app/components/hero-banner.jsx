@@ -1,10 +1,10 @@
 import Image from "next/image";
 import { Button } from "./ui/button";
-import { ButtonHireMe } from "./ui/button-hire-me";
+import { ButtonContact } from "./ui/button-contact";
 
 export const HeroBanner = () => {
     return (
-        <div className="grow flex items-center mb-16">
+        <div className="grow flex items-center">
             <div className="w-[600px] mx-auto">
                 <h1 className='text-5xl text-gray-700 font-semibold leading-[3.7rem] mb-3'>
                     <span className="pl-1">Hi, i am</span>
@@ -18,7 +18,7 @@ export const HeroBanner = () => {
 
                 <div className="flex items-center gap-2">
                     <Button>Download my CV</Button>
-                    <ButtonHireMe />
+                    <ButtonContact />
                 </div>
             </div>
             <div className="grow hidden md:flex justify-end">
