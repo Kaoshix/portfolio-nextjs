@@ -11,7 +11,7 @@ export default function Home() {
 
       <div className="min-h-screen mx-5 flex flex-col pb-20" id="home">
         <Header />
-        <div className="flex flex-col justify-center gap-14 md:gap-0 grow">
+        <div className="flex flex-col justify-center gap-14 md:gap-20 grow">
           <HeroBanner />
           <div>
             <ArrowHomeButton />
