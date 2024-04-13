@@ -14,12 +14,14 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       keyframes: {
-        propel: {
-          '0%': { transform: 'translateX(0)' },
-          '20%': { transform: 'translateX(25%)' },
-          '40%': { transform: 'translateX(0)' },
-          '60%': { transform: 'translateX(25%)' },
-          '100%': { transform: 'translateX(0)' },
+        bouncing: {
+          '0%': { transform: 'translateY(0)' },
+          '20%': { transform: 'translateY(0)' },
+          '40%': { transform: 'translateY(-20px)' },
+          '50%': { transform: 'translateY(0)' },
+          '60%': { transform: 'translateY(-10px)' },
+          '80%': { transform: 'translateY(0)' },
+          '100%': { transform: 'translateY(0)' },
         },
       },
     },

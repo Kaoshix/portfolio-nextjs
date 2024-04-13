@@ -11,7 +11,7 @@ export const ProjectsContainer = () => {
 
     return (
         <>
-            <ul className="flex flex-col md:flex-row gap-3 justify-center items-center mb-5 select-none">
+            <ul className="flex flex-col md:flex-row gap-3 justify-center items-center select-none my-8 mx-auto pb-4 px-10 w-fit border-b border-slate-600">
                 <li
                     className={`cursor-pointer py-2 px-3 rounded-lg ${listFocus === 'all' ? 'bg-black text-white' : 'bg-white text-black'}`}
                     onClick={() => {

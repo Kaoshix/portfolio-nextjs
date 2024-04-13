@@ -9,17 +9,17 @@ export default function Home() {
 
     <main className="max-w-screen-2xl m-auto overflow-hidden flex flex-col gap-5">
 
-      <div className="min-h-screen mx-5 flex flex-col" id="home-section">
+      <div className="min-h-screen mx-5 flex flex-col" id="home">
         <Header />
-        <div className="flex flex-col md:grow">
+        <div className="flex flex-col grow">
           <HeroBanner />
-          <div className="min-h-[40px] md:min-h-0">
+          <div>
             <ArrowHomeButton />
           </div>
         </div>
       </div>
 
-      <div className="min-h-screen" id="project-section">
+      <div className="min-h-screen" id="projects">
         <ProjectsContainer />
       </div>
     </main>
