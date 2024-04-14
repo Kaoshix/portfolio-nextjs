@@ -8,7 +8,6 @@ export default function Home() {
   return (
 
     <main className="max-w-screen-2xl m-auto overflow-hidden flex flex-col gap-5">
-      <Form />
 
       <div className="min-h-screen mx-5 flex flex-col pb-20" id="home">
         <Header />
@@ -22,6 +21,10 @@ export default function Home() {
 
       <div className="min-h-screen" id="projects">
         <ProjectsContainer />
+      </div>
+
+      <div>
+        <Form />
       </div>
     </main>
 
