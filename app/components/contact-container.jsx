@@ -32,7 +32,7 @@ export const ContactContainer = () => {
     return (
         <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md relative">
             <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900">Contact Me</h2>
-            <p className="mb-8 lg:mb-12 font-normal text-center text-gray-700 sm:text-xl">Be free to send me a message with the form bellow. Hope to see you soon ! :)</p>
+            <p className="mb-8 lg:mb-12 font-normal text-center text-gray-700 sm:text-xl">Reach out anytime. <br />Hope to see you soon ! :)</p>
             <form action="#" className="space-y-8">
                 <div>
                     <label htmlFor="email" className="block mb-2 text-sm font-medium text-gray-900">Your email / name</label>

@@ -35,22 +35,6 @@ export const ProjectsContainer = () => {
                         setListFocus('software');
                     }}>Softwares
                 </li>
-
-                <li
-                    className={`hidden md:inline-block cursor-pointer py-2 px-3 rounded-lg ${listFocus === 'mobile' ? 'bg-black text-white' : 'bg-white text-black'}`}
-                    onClick={() => {
-                        setProjects('');
-                        setListFocus('mobile');
-                    }}>Mobile applications
-                </li>
-
-                <li
-                    className={`hidden md:inline-block cursor-pointer py-2 px-3 rounded-lg ${listFocus === 'game' ? 'bg-black text-white' : 'bg-white text-black'}`}
-                    onClick={() => {
-                        setProjects('');
-                        setListFocus('game');
-                    }}>Video games
-                </li>
             </ul>
 
             <div className='grid grid-cols-1 md:grid-cols-3 gap-10 md:gap-5 max-w-screen-xl mx-5 md:mx-auto'>
