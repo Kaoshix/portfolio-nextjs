@@ -14,7 +14,7 @@ export const HeroBanner = () => {
                     <p className="mt-2 font-bold bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 text-transparent bg-clip-text">Full-stack Web Developer</p>
                 </h1>
 
-                <p className="mb-5 text-2xl font-normal">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur temporibus quam excepturi corrupti ratione laboriosam deleniti rerum laborum.</p>
+                <p className="mb-5 text-2xl font-normal">Highly passionate about new technologies and video games, I create immersive web applications and softwares for businesses</p>
 
                 <div className="flex justify-center md:justify-start gap-2">
                     <Button>Download CV</Button>

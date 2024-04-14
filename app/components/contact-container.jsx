@@ -40,7 +40,7 @@ export const ContactContainer = () => {
                         type="email"
                         id="email"
                         className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 focus:ring-primary-500"
-                        placeholder="name@gmail.com / John Doe"
+                        placeholder="johndoe@gmail.com / John Doe"
                         required
                         onChange={(e) => setEmail(e.target.value)}
                     />
