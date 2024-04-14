@@ -3,7 +3,6 @@ import { useState } from "react"
 
 export const Form = () => {
 
-    const [name, setName] = useState('')
     const [email, setEmail] = useState('')
     const [message, setMessage] = useState('')
     const [submitted, setSubmitted] = useState(false)
@@ -12,7 +11,6 @@ export const Form = () => {
         e.preventDefault()
         console.log('Sending')
         const data = {
-            name,
             email,
             message
         }
@@ -35,10 +33,6 @@ export const Form = () => {
     return (
         <div className="w-[300px] p-5">
             <form className="flex flex-col gap-5">
-                <div>
-                    <label htmlFor='name'>Name</label>
-                    <input className="border border-black" type='text' name='name' onChange={(e) => setName(e.target.value)} />
-                </div>
                 <div>
                     <label htmlFor='email'>Email</label>
                     <input className="border border-black" type='email' name='email' onChange={(e) => setEmail(e.target.value)} />

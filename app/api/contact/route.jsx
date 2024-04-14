@@ -16,7 +16,6 @@ export async function POST(req, res) {
             case "POST": {
                 //Do some thing
                 await sendMail(
-                    body.name,
                     body.email,
                     body.message
                 );
