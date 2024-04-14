@@ -2,7 +2,6 @@ import { HeroBanner } from "./components/hero-banner";
 import { Header } from "./components/header";
 import { ProjectsContainer } from "./components/projects-container";
 import { ArrowHomeButton } from "./components/ui/arrow-home-button";
-import { Form } from "./components/form";
 import { ContactContainer } from "./components/contact-container";
 
 export default function Home() {
@@ -26,12 +25,6 @@ export default function Home() {
 
       <div className="min-h-screen relative" id="contact">
         <ContactContainer />
-
-        {/* <div className="flex justify-center gap-5">
-          <p>social icon</p>
-          <p>social icon</p>
-          <p>social icon</p>
-        </div> */}
       </div>
     </main>
 

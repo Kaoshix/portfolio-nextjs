@@ -1,10 +1,7 @@
 import type { Metadata } from "next";
 import { Inter as FontSans } from "next/font/google";
 import "./globals.css";
-import { FaLinkedin } from "react-icons/fa6";
-import { IoLogoGithub } from "react-icons/io";
-import { IoLogoInstagram } from "react-icons/io5";
-import Link from "next/link";
+import { Footer } from "./components/footer";
 
 const fontSans = FontSans({
   subsets: ["latin"],
@@ -27,24 +24,7 @@ export default function RootLayout({
       <body className={`text-gray-700 bg-white relative ${fontSans.variable}`}>
         {children}
 
-        <footer className="absolute bottom-0 bg-[#111827] w-full h-[200px] text-white">
-          <div className="max-w-screen-2xl m-auto flex flex-col gap-5 justify-center items-center h-full">
-            <p className="text-xl">© 2024 Sebastien Olhagaray - All rights reserved</p>
-            <div className="flex gap-5">
-              <Link href="https://www.linkedin.com/in/sebastien-olhagaray" target='_blank'>
-                <FaLinkedin size={40} />
-              </Link>
-
-              <Link href="https://github.com/Kaoshix" target='_blank'>
-                <IoLogoGithub size={40} />
-              </Link>
-
-              <Link href="https://www.instagram.com/kaoshi_x" target='_blank'>
-                <IoLogoInstagram size={40} />
-              </Link>
-            </div>
-          </div>
-        </footer>
+        <Footer />
       </body>
     </html>
   );
