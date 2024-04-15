@@ -8,7 +8,7 @@ export const ProjectContent = ({ project }) => {
             {project && (
                 <>
                     <Image src={image} width={1000} height={1000} alt={title} className="aspect-video object-cover" />
-                    <div className="px-6 py-4">
+                    <div className="px-6 py-4 grow">
                         <div className="font-bold text-xl mb-2">{title}</div>
                         <p className="text-gray-700 text-base">{description}</p>
                     </div>
