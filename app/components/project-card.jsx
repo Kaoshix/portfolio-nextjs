@@ -9,7 +9,7 @@ export const ProjectCard = ({ project }) => {
                     <ProjectContent project={project} />
                 </a>
             ) : (
-                <div className="flex flex-col rounded overflow-hidden shadow-lg bg-white border border-gray-200 opacity-50">
+                <div className="flex flex-col rounded overflow-hidden shadow-lg bg-white border border-gray-200">
                     <ProjectContent project={project} />
                 </div>
 
