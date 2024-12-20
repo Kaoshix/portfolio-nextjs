@@ -1,6 +1,6 @@
 
 'use client';
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { MainLogo } from "./main-logo"
 import { ButtonContact } from "./ui/button-contact"
 import { FaBars, FaTimes } from "react-icons/fa";
@@ -25,8 +25,21 @@ export const NavigationBar = () => {
         },
     ];
 
+    useEffect(() => {
+        const html = document.querySelector('html');
+        if (nav) {
+            html.style.overflow = 'hidden';
+        } else {
+            html.style.overflow = '';
+        }
+
+        return () => {
+            html.style.overflow = '';
+        };
+    }, [nav]);
+
     return (
-        <div className="flex justify-between items-center w-full h-20 px-4 text-grey-900 mx-auto">
+        <div className="flex justify-between items-center w-full h-20 px-4 text-grey-900 max-w-screen-2xl mx-auto">
             <div>
                 <h1 className="text-2xl">
                     <a
