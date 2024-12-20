@@ -4,10 +4,10 @@ export const getAllProjects = () => {
     return Projects;
 }
 
-export const getWebAppProjects = () => {
-    return Projects.filter(project => project.platform === 'web');
+export const getProProjects = () => {
+    return Projects.filter(project => project.platform === 'pro');
 }
 
-export const getSoftwareProjects = () => {
-    return Projects.filter(project => project.platform === 'software');
+export const getPersonalProjects = () => {
+    return Projects.filter(project => project.platform === 'perso');
 }

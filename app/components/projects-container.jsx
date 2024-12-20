@@ -1,6 +1,6 @@
 'use client';
 import { useState } from 'react';
-import { getAllProjects, getSoftwareProjects, getWebAppProjects } from '../utils/backend-functions';
+import { getAllProjects, getPersonalProjects, getProProjects } from '../utils/backend-functions';
 import { ProjectCard } from './project-card';
 
 export const ProjectsContainer = () => {
@@ -21,19 +21,19 @@ export const ProjectsContainer = () => {
                 </li>
 
                 <li
-                    className={`hidden md:inline-block cursor-pointer py-2 px-3 rounded-lg ${listFocus === 'web' ? 'bg-black text-white' : 'bg-white text-black'}`}
+                    className={`cursor-pointer py-2 px-3 rounded-lg ${listFocus === 'pro' ? 'bg-black text-white' : 'bg-white text-black'}`}
                     onClick={() => {
-                        setProjects(getWebAppProjects());
-                        setListFocus('web');
-                    }}>Web applications
+                        setProjects(getProProjects());
+                        setListFocus('pro');
+                    }}>Professional projects
                 </li>
 
                 <li
-                    className={`hidden md:inline-block cursor-pointer py-2 px-3 rounded-lg ${listFocus === 'software' ? 'bg-black text-white' : 'bg-white text-black'}`}
+                    className={`cursor-pointer py-2 px-3 rounded-lg ${listFocus === 'perso' ? 'bg-black text-white' : 'bg-white text-black'}`}
                     onClick={() => {
-                        setProjects(getSoftwareProjects());
-                        setListFocus('software');
-                    }}>Softwares
+                        setProjects(getPersonalProjects());
+                        setListFocus('perso');
+                    }}>Personal projects
                 </li>
             </ul>
 

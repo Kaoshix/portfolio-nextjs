@@ -7,7 +7,7 @@ export const Projects = [
         description: 'Online platform for retro gaming enthusiasts. Play, share and compete with your friends on your favorite retro games.',
         image: '/assets/images/retrophy-image.png',
         link: 'https://retrophy.fun',
-        platform: 'web',
+        platform: 'perso',
         tags: [
             'React',
             'Tailwind',
@@ -20,7 +20,7 @@ export const Projects = [
         description: 'Company website specializing in the sale and rental of handling equipment.',
         image: '/assets/images/tmsv-image.png',
         link: 'https://tmsv-manutention.fr',
-        platform: 'web',
+        platform: 'pro',
         tags: [
             'Wordpress'
         ]
@@ -31,7 +31,7 @@ export const Projects = [
         description: 'Online store for the sale of insulation home products.',
         image: '/assets/images/isobleu-image.png',
         link: 'https://isobleu.fr',
-        platform: 'web',
+        platform: 'pro',
         tags: [
             'React',
             'Next',
@@ -44,7 +44,7 @@ export const Projects = [
         description: 'Website for an egyption hotel located in the heart of the desert.',
         image: '/assets/images/santar-image.png',
         link: 'https://santarlodge.vercel.app',
-        platform: 'web',
+        platform: 'pro',
         tags: [
             'React',
             'Next',
@@ -58,7 +58,7 @@ export const Projects = [
         description: 'Online blackjack game. Play against the dealer and try to get as close to 21 as possible without going over.',
         image: '/assets/images/blackjacko-image.png',
         link: 'https://blackjacko-react.vercel.app',
-        platform: 'web',
+        platform: 'perso',
         tags: [
             'React',
             'Tailwind'
@@ -70,7 +70,7 @@ export const Projects = [
         description: 'Application for managing weight and balance of aircrafts. For training purposes only.',
         image: '/assets/images/altea-fm-image.png',
         link: '',
-        platform: 'software',
+        platform: 'pro',
         tags: [
             'React',
             'Tailwind',
@@ -83,7 +83,7 @@ export const Projects = [
         description: 'Application for managing customers and flights. For training purposes only.',
         image: '/assets/images/altea-cm-image.png',
         link: '',
-        platform: 'software',
+        platform: 'pro',
         tags: [
             'React',
             'Tailwind',
