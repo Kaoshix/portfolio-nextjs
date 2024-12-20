@@ -6,7 +6,7 @@ export const Projects = [
         title: 'Retrophy',
         description: 'Online platform for retro gaming enthusiasts. Play, share and compete with your friends on your favorite retro games.',
         image: '/assets/images/retrophy-image.png',
-        link: 'https://retrophy.fun',
+        link: '',
         platform: 'perso',
         tags: [
             'React',
@@ -88,6 +88,18 @@ export const Projects = [
             'React',
             'Tailwind',
             'Electron'
+        ]
+    },
+    {
+        id: 8,
+        title: 'Levenly',
+        description: 'Levenly specializes in the sale of audio equipment, lighting, and aluminum structures for exhibition stands.',
+        image: '/assets/images/levenly.png',
+        link: 'https://www.levenly.com/fr/accueil.html',
+        platform: 'pro',
+        tags: [
+            'CodeIgniter',
+            'Bootstrap',
         ]
     }
 ]
