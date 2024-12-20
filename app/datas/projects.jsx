@@ -94,7 +94,7 @@ export const Projects = [
         id: 8,
         title: 'Levenly',
         description: 'Levenly specializes in the sale of audio equipment, lighting, and aluminum structures for exhibition stands.',
-        image: '/assets/images/levenly.png',
+        image: '/assets/images/levenly-image.png',
         link: 'https://www.levenly.com/fr/accueil.html',
         platform: 'pro',
         tags: [
