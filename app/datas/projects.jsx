@@ -101,5 +101,17 @@ export const Projects = [
             'CodeIgniter',
             'Bootstrap',
         ]
-    }
+    },
+    {
+        id: 9,
+        title: 'Sportracker',
+        description: 'Web application to track your sport performances.',
+        image: '/assets/images/sportracker-image.png',
+        link: 'https://sportracker.devolha.tech',
+        platform: 'perso',
+        tags: [
+            'CodeIgniter',
+            'Bootstrap',
+        ]
+    },
 ]
