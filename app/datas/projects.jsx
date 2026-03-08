@@ -2,6 +2,19 @@
 
 export const Projects = [
     {
+        id: 10,
+        title: 'Nostamap',
+        description: 'High-resolution interactive maps for retro games, including synchronisation with RetroAchievements',
+        image: '/assets/images/nostamap-image.png',
+        link: 'https://nostamap.io',
+        platform: 'perso',
+        tags: [
+            'React',
+            'Tailwind',
+            'Symfony'
+        ]
+    },
+    {
         id: 1,
         title: 'Retrophy',
         description: 'Online platform for retro gaming enthusiasts. Play, share and compete with your friends on your favorite retro games.',
